@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8" />
+    <title>Welcome</title>
+     <script src="js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	if ('localStorage' in window && window['localStorage'] !== null) {
+    		$('#tokenDiv').html("token stored in localStorage: " + localStorage.token);
+		}
+	});
+    </script>
+   </head>
+
+   <body>
+        <div id="welcome">
+            Login successfuly! Welcome.
+        </div>
+        <div id="tokenDiv">
+        </div>
+   </body>
+
+</html> 

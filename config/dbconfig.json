@@ -1,0 +1,7 @@
+{
+  "dbName": "test", 
+  "userName": "root", 
+  "pwd": "root",
+  "dialect":"mysql",
+  "port":"3306"
+}
